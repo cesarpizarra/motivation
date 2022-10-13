@@ -101,6 +101,15 @@ small{
 }
 
 @media screen and (max-width:600px){
+    .main-container{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin-top: 30%;
+        
+    }
     nav h1{
         font-family: 'Courier New', Courier, monospace;
         font-weight: bold;
